@@ -1,6 +1,6 @@
-# Project Name
+# meteor-flowup
 
-TODO: Write a project description
+Meteor port of [jquery flowup plugin](https://github.com/DominikGorecki/flowup). Easily add small flow-up animation to elements when they are scrolled to.
 
 ## Installation
 ```
