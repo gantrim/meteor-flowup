@@ -3,8 +3,10 @@
 TODO: Write a project description
 
 ## Installation
+```
+meteor add gantrim:flowup
+```
 
-TODO: Describe the installation process
 
 ## Usage
 
@@ -12,14 +14,14 @@ See off for example. The only real difference here is that your are using Meteor
 
 ### Example
 Template JS
-'''javascript
+```javascript
 Template.flowup.onRendered(function () {
     $(".flowup-container").flowUp("p", { transalteY: 350, duration: 1 });
 });
-'''
+```
 
 TEMPLATE HTML
-'''html
+```html
 <template name="flowup">
     <div class="flowup-container">
         <p>Thi is a simple jQuery plugin</p>
@@ -35,7 +37,7 @@ TEMPLATE HTML
         <p>* Settings added</p>
     </div>
 </template>
-'''
+```
 
 ## Credits
 [Original FlowUp Plugin - DominikGorecki](https://github.com/DominikGorecki/flowup)
