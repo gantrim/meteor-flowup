@@ -8,7 +8,8 @@
 Package.describe({
     name: 'gantrim:flowup', // All modules should api.use() this.
     summary: 'Meteor port of FlowUp jquery Plugin',
-    version: '1.0.0'
+    version: '1.0.1',
+    git: 'https://github.com/gantrim/meteor-flowup'
 });
 
 Package.onUse(function (api) {
